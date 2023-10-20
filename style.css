@@ -1,0 +1,16 @@
+
+@import url(css/header.css);
+@import url(css/footer.css);
+@import url(css/main.css);
+
+@font-face {
+    font-family: "Marzo WebFont";
+    
+    src: local(Marzo), url(font/FontsFree-Net-marzo.ttf);
+}
+body {
+    margin: 0;
+    background-color: rgb(127, 9, 97);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
