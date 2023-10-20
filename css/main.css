@@ -51,9 +51,9 @@
     margin-top: -40px;
     padding: 40px 40px 40px 0px;
     align-items: center;
+    text-align: center;
 }
 .boas_vindas {
-    display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px 40px 40px 0px;
@@ -106,7 +106,6 @@
 
 .swiper img {
     width: 350px;
-
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -116,17 +115,38 @@
 
 @media only screen and (max-width: 600px)  {
 .principal {  
-    margin-left: 10%;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+
+}
+.boas_vindas {
+    display: inline-block;
+padding-left: 10%;
+
 }
 .exemplos {
     display: inline-block;
 }
+.exemplos p{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
 .indice, .carrossel {
   width: 100%;
+  
+}
+.indice li{
+    margin-left: -15%;
+}
+.carrossel{
+    width: 100%;
 }
 .swiper-button-prev, .swiper-button-next {
-    color: rgb(255, 246, 255);
-    text-shadow: 2px;
     display: none;
 }
+.swiper img {
+    width: 300px;
+}
+
 }

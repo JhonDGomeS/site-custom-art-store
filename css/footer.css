@@ -18,3 +18,17 @@ footer {
     padding-bottom: 30px;
     text-decoration: none;
   }
+  @media only screen and (max-width: 600px)  {
+footer {
+width: 100%;
+}    
+.detalhes {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  border-top: 2px solid ;
+}
+.detalhes div {
+  width: 100%;
+}
+  }
