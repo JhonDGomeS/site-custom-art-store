@@ -115,14 +115,18 @@
 }
 
 @media only screen and (max-width: 600px)  {
-.principal {
+.principal {  
     margin-left: 10%;
 }
 .exemplos {
     display: inline-block;
 }
 .indice, .carrossel {
-
   width: 100%;
+}
+.swiper-button-prev, .swiper-button-next {
+    color: rgb(255, 246, 255);
+    text-shadow: 2px;
+    display: none;
 }
 }
