@@ -32,6 +32,10 @@ body {
     text-align: center;
 }
 
+.grid-item img {
+    width: 100%;
+}
+
 button {
     margin-top: 20px;
     padding: 10px 20px;
