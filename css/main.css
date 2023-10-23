@@ -113,6 +113,12 @@
     text-shadow: 2px;
 }
 
+.blabla {
+    display: flex;
+}
+ .blabla div {
+    width: 50%;
+ }
 
 .slider {
     width: 100%;
@@ -140,7 +146,7 @@
    }
 
 
-   
+
 
 @media only screen and (max-width: 600px)  {
 .principal {  
