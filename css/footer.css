@@ -33,6 +33,35 @@
     justify-content: center;
     margin-bottom: -15px;
   }
+
+  .social {
+    width: 45px;
+    transition: all 0.4s ease;
+}
+.instagram {
+    width: 45px;
+    border-radius: 100%;
+    background-color: #E1306C;
+}
+.tiktok {
+    width: 45px;
+    border-radius: 100%;
+    background-color: #c4c4c4;
+}
+.email {
+    width: 45px;
+    border-radius: 100%;  
+    background-color: #c4c4c4;
+}
+.whatsapp {
+    width: 45px;
+    border-radius: 100%;
+    background-color: #00b536;
+}
+.social img:hover {
+    background: #fff;
+}
+
   @media only screen and (max-width: 600px)  {
 .end {
 width: 100%;
