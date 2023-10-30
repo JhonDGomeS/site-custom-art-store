@@ -1,0 +1,88 @@
+
+@import url(css/footer.css);
+@import url(css/main.css);
+@font-face {font-family: "Marzo WebFont";    
+    src: local(Marzo), url(font/FontsFree-Net-marzo.ttf);
+}
+body {
+    margin: 0;
+    background-color: rgb( 66, 0, 58);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1b001a;
+    padding: 40px 40px 40px 0px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.imagem {
+    max-height: 100px;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Marzo Webfont";
+    width: 100%;
+}
+  .lista {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        width: 100%;
+  }
+  header ul li a {
+    color: #ffffff;
+    position: relative;
+    padding: 5px 0;
+  }
+  header ul li a:hover {
+    color: rgb(219, 1, 165);
+  }
+  header ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: rgb(219, 1, 165);
+    transition: 0.3s;
+    bottom: 0;
+  }
+  header ul li a:hover:after {
+    width: 100%;
+  }
+  .btn {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+  }
+  .btn:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+  }
+  @media only screen and (max-width: 700px)  {
+  header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

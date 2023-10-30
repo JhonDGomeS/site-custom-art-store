@@ -1,51 +1,71 @@
 header {
-    background-color: rgb( 66, 0, 58);
-    padding: 40px 40px 40px 0px;
+    background-color: #1b001a;
+    padding: 60px 40px 40px 0px;
     margin-bottom: 0px;
-    border-bottom: 3px solid #000000;
+    border-bottom: 3px solid #ffffff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    font-family: "Marzo Webfont";
 }
 .imagem {
-    height: 100px;
+    max-height: 100px;
 }
-.titulo {
+header a, .titulo {
+    color: #ffffff;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Marzo Webfont";
-    width: 100%;
+    width: 50%;
+
 }
-.lista {
+header ul  {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     list-style: none;
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
 }
-.link {
-    color: aliceblue;
-    text-decoration: none;
-    width: 20%;
-}
-.link:hover {
-    background-color: rgba(134, 134, 134, 0.488);
-    color: aliceblue;
-    text-decoration: none;
-    width: 21%;
-}
-.item { 
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin-left: 0px;
-    background-color: rgba(255, 255, 255, 0.514);
-    border-bottom: thick double #000000;
-    border-radius: 10px;
-}
+header ul li a {
+    color: #ffffff;
+    position: relative;
+    padding: 5px 0;
+  }
+  header ul li a:hover {
+    color: rgb(219, 1, 165);
+  }
+  header ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: rgb(219, 1, 165);
+    transition: 0.3s;
+    bottom: 0;
+  }
+  header ul li a:hover:after {
+    width: 100%;
+  }
 
-.icon{
+  @media only screen and (max-width: 700px)  {
+    header {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+    }
 
-    height: 50px;
-    align-items: center;
-    justify-content: center;
+  @media only screen and (max-width: 500px)  {
+  header, ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
