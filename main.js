@@ -19,7 +19,6 @@ function nextSlide() {
 
 setInterval(nextSlide, 3000);
 
-
 //fim da parte nova 
 
 const swiper = new Swiper('.swiper', {
